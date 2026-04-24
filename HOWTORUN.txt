@@ -1,0 +1,29 @@
+HOW TO RUN - AllLife
+
+You need PHP
+
+1. Open terminal and cd into this folder.
+
+2. Start the built in php dev server:
+       php -S localhost:8000
+
+3. Open the browser and go to: http://localhost:8000/setup.php. If anything occurs maybe refresh
+
+4. http://localhost:8000/ and make an account and done.
+
+Pages
+-----
+index.php      - First page u see (not logged in)
+register.php   - sign up
+login.php      - log in
+dashboard.php  - home page after login, snapshot + streaks
+water.php      - water tracker
+calories.php   - calorie tracker (has barcode lookup)
+gym.php        - placeholder until updated in the future hopefully for myself, feature not built
+account.php    - change details / targets / password
+logout.php     - logs you out
+
+
+P.S
+- Database is a local sqlite file at db/alllife.db
+- Barcode lookup needs internet obviously to search up (Open Food Facts API)
